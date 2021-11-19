@@ -114,15 +114,20 @@ or our [Presentation](./Apple_Sentiment_Analysis.pdf)
 ### Repository Structure
 
 ```
-
-├── README.md <- The top-level README for reviewers of this project
-
-├──  [Apple_Sentiment_Analysis.pdf]<- PDF version of project presentation
-
-├── jupyters <- Various notebooks done by the collaborators
-
-├── Apple_Tweets_Sentiment.ipynb <- Notebook containing a project checkpoint
-
-├── data <- Both sourced externally and generated from code
-
-└── images <- Both sourced externally and generated from code
+├── data
+│   ├── clean_tweets.csv
+│   └── tweets.csv
+├── images
+│   ├── Tweet_Sentiments_Breakdown.png
+│   ├── confusion_matrix.png
+│   ├── mariovsluigi.jpg
+│   └── twitter_bg.png
+├── jupyters
+│   ├── .ipynb_checkpoints
+│   ├── Teds_JN.ipynb
+│   ├── chris_book.ipynb
+│   └── kelsey_notebook.ipynb
+├── .gitignore
+├── Apple_Sentiment_Analysis.pdf
+├── Apple_Tweets_Sentiment.ipynb
+└── README.md
