@@ -130,3 +130,5 @@ dmypy.json
 
 #jupyters
 .jupyters/
+
+.ipynb_checkpoints
